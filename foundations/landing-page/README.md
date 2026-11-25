@@ -20,5 +20,14 @@ I remade this twice. The second time was much faster and cleaner!
 - **FIX:** 
   1. The links at the top. Hover state looks ugly, but I made it worse in an attempt to fix it ;-;
   2. Update the logo, as it doesn't suit the theme (not what i initially planned T_T)
+  3. Download the fonts and add them to the fonts' directory.
 
 This was a really tiring, yet fun project, though it had nothing to do with logic! Can't wait to get my hands dirty for whatever comes ahead.
+
+__Everything after this is after I pushed the project...__
+
+## Wait...
+
+Ik! I could use this as a showcase website, to display all the projects I've done.
+
+- **Nov 25th:** Repurposed project

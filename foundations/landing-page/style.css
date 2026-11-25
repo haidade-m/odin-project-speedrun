@@ -140,18 +140,20 @@ header {
     width: 210px;
 }
 
+/* made it a bit cleaner and in a way that it hugs/ covers the length of the image. Not the best but works */
 .img-box {
-    width: 100%;
-    height: 180px;
+    display: inline-block;
     background-color: var(--surface);
     border: 2px solid var(--ink);
     box-shadow: 5px 5px 0px var(--ink);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2.5rem;
-    font-weight: 700;
     margin-bottom: 1rem;
+    line-height: 0;
+}
+
+.img-box img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .card p {
