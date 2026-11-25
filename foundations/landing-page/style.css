@@ -1,1 +1,200 @@
-/* yeah... it's quiet in here.. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #e5e5e5;
+    --surface: #ffffff;
+    --ink: #18181b;
+    --accent: #a3e635;
+}
+
+body {
+    font-family: "Geist Mono", monospace;
+    background-color: var(--bg);
+    color: var(--ink);
+    line-height: 1.6;
+}
+
+.body {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.navbar {
+    max-width: 1100px;
+    margin: 0 auto 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    border-bottom: 2px solid var(--ink);
+}
+
+.logo img {
+    max-height: 45px;
+    max-width: 200px;
+}
+
+.navbar-nav {
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 600;
+    gap: 3rem;
+}
+
+.nav-link a:hover {
+    background-color: var(--accent);
+    padding: 2px 6px;
+}
+
+button {
+    padding: 0.75rem 1.75rem;
+    border: 2px solid var(--ink);
+    box-shadow: 4px 4px 0px var(--ink);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+button:active {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0px var(--ink);
+}
+
+.btn-primary {
+    background-color: var(--accent);
+}
+
+.btn-secondary {
+    background-color: var(--surface);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 3rem 0 5rem 0;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    margin-bottom: 1.75rem;
+    color: #3f3f46;
+}
+
+.hero-media {
+    flex: 1;
+    height: 260px;
+    background-color: var(--surface);
+    border: 2px solid var(--ink);
+    box-shadow: 8px 8px 0px var(--ink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.upper-mid {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.upper-mid h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 210px;
+}
+
+.img-box {
+    width: 100%;
+    height: 180px;
+    background-color: var(--surface);
+    border: 2px solid var(--ink);
+    box-shadow: 5px 5px 0px var(--ink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    font-size: 0.9rem;
+}
+
+.lower-mid {
+    background-color: var(--surface);
+    border: 2px solid var(--ink);
+    padding: 4rem 5rem;
+    margin: 3rem 0;
+}
+
+blockquote p {
+    font-size: 1.6rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+figcaption {
+    text-align: right;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.bottom {
+    padding: 3rem 0 5rem 0;
+}
+
+.bottom .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--accent);
+    border: 2px solid var(--ink);
+    box-shadow: 8px 8px 0px var(--ink);
+    padding: 2.5rem 3.5rem;
+    gap: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    border-top: 2px solid var(--ink);
+    font-size: 0.9rem;
+}
